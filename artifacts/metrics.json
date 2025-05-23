@@ -1,0 +1,22 @@
+{
+  "val_loss": 3187.299560546875,
+  "val_mse": 3187.299560546875,
+  "val_mae": 2.0369489192962646,
+  "hyperparameters": {
+    "width": 48,
+    "activation": "elu",
+    "lr": 0.0003204119265097899,
+    "dropout": 0.1
+  },
+  "training_time_seconds": 944.561927318573,
+  "gpu_used": true,
+  "config_used": {
+    "csv_path": "/content/measures_v2.csv",
+    "trials": 15,
+    "epochs": 25,
+    "final_epochs": 50,
+    "val_split": 0.2,
+    "batch_size": 1024,
+    "random_seed": 42
+  }
+}
